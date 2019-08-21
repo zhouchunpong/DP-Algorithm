@@ -8,7 +8,7 @@
 
 ## Introduction
 看下面的一个例子，我们需要从以下带时间窗的任务中，选择总价值最大的，每次只能做一个任务，而且任务之间的时间不能冲突。每一个矩形上面标的数字代表该任务完成的value。如下所示：
-<center><img src="1.png" width = "500" alt="1" align=center></center>
+<center><img src="https://github.com/zhouchunpong/test/blob/master/1.PNG" width = "500" alt="1" align=center></center>
 
 
 **解决思想：选 或 不选**
