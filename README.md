@@ -18,7 +18,7 @@
 
 综上，我们需要保证最大收益，$OPT(8)$可以表示如下：
 $$OPT(8) = max \begin{cases} 
-4 + OPT(5) &if\ choose\ the\ task\ 8\\ 
+4 + OPT(5) &if\ choose\ the\ task\ 8\\\\ 
 OPT(7) & if\ not\ choose\ the\ task\ 8 
 \end{cases}$$
 
