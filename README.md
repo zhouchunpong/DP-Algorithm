@@ -106,7 +106,7 @@ print(dp_opt(8))
 对于第i个数字，如果选了则下一步只能考虑第(i-2)个数字，因为不能相邻；如果不选i，就考虑i-1。
 用公式表示如下：
 $$OPT(i) = max \begin{cases} 
-arr(i) + OPT(i-2) &if\ choose\ the\ nunber\\ 
+arr(i) + OPT(i-2) &if\ choose\ the\ nunber\\\\ 
 OPT(i-1) & if\ not\ choose\ the\ number 
 \end{cases}$$
 
