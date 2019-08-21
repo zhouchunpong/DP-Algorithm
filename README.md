@@ -24,7 +24,7 @@ OPT(7) & if\ not\ choose\ the\ task\ 8
 
 然后我们就可以推广到任务i了，依然有两种选择，做任务i或者不做，再去取两种情况的最大值，公式描述如下：
 $$OPT(i) = max \begin{cases} 
-value(i) + OPT(prev(i)) &if\ choose\ the\ task\ i\\ 
+value(i) + OPT(prev(i)) &if\ choose\ the\ task\ i\\\\ 
 OPT(i-1) & if\ not\ choose\ the\ task\ i 
 \end{cases}$$
 其中$prev(i)$表示如果选择了任务i，那么在之前能选择的最近任务（确保时间不冲突）。例如选择做任务8，那么之前最近能选择任务5；如果选择做任务7，之前能做的最近任务是任务3。所有的$prev(i)$如下表所示：
