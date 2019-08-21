@@ -1,5 +1,7 @@
 
 # 动态规划问题 Dynamic Programming Algorithm
+
+Github对markdown支持不好，显示公式需要安装插件[Chorme Store](https://chrome.google.com/webstore/detail/mathjax-plugin-for-github/ioemnmodlmafdkllaclgeombjnmnbima)。更好的阅读体验请[跳转知乎进行阅读](https://zhuanlan.zhihu.com/p/79124588)。
 ## Abstract
 >**动态规划**（英语：Dynamic programming，简称DP）通过把原问题分解为相对简单的子问题的方式求解复杂问题的方法。动态规划常常适用于有重叠子问题和最优子结构性质的问题，动态规划方法所耗时间往往远少于朴素解法。动态规划背后的基本思想非常简单。大致上，若要解一个给定问题，我们需要解其不同部分（即子问题），再根据子问题的解以得出原问题的解。
 
@@ -187,3 +189,4 @@ for i in range(10,15):
 ## Reference
 1. <https://www.bilibili.com/video/av16544031>
 2. <https://www.bilibili.com/video/av18512769>
+3. https://zhuanlan.zhihu.com/p/79124588
