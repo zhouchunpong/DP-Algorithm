@@ -143,7 +143,7 @@ print(dp_opt(7))
 **解决思想：选 或 不选** 
 我们把原问题拆分成子问题，原问题定义为Subset(i,S)，其中i表示考虑到前i个数，S是我们需要满足的整数。对于第i个数，如果选了，则S=S-arr(i)；如果没选，则考虑前i-1个数，S保持不变。依次递归，只要有一种满足条件就返回True。用公式描述如下： 
 $$Subset(i,S) = OR \begin{cases} 
-Subset(i-1,S-arr(i)) &if\ choose\ the\ number\\ 
+Subset(i-1,S-arr(i)) &if\ choose\ the\ number\\\\ 
 Subset(i-1,S) & if\ not\ choose\ the\ number 
 \end{cases}$$
 
